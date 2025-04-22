@@ -2,7 +2,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 
 export default function Home() {
   const [gradientPosition, setGradientPosition] = useState(0);
@@ -56,7 +55,7 @@ export default function Home() {
           </div>
           
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            We're building something amazing that will revolutionize how you create web and mobile applications.
+            We&apos;re building something amazing that will revolutionize how you create web and mobile applications.
             Stay tuned for the launch!
           </p>
         </div>
