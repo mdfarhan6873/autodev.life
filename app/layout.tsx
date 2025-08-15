@@ -73,13 +73,14 @@ export const metadata: Metadata = {
   },
   category: "technology",
   metadataBase: new URL('https://autodev.life'),
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
-export const viewport = {
-  width: "device-width",
-  initialScale: 1,
-  maximumScale: 1,
-};
+// Viewport configuration moved to metadata for static export compatibility
 
 export default function RootLayout({
   children,
